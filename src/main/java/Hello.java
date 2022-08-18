@@ -1,7 +1,7 @@
 //Написать программу, которая должна найти и вывести повторяющийся символ в слове «Hello»
 
 public class Hello {
-    public static void main(String[] args) {
+    public static void hello() {
         String str = "Hello";
         char[] chars = str.toCharArray();
 

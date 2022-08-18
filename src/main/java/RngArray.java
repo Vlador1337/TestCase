@@ -4,9 +4,8 @@
 */
 
 public class RngArray {
-    public static void main(String[] args) {
-        int n = 100;
-        double[] array = new double[n];
+    public static void rngArray(int number) {
+        double[] array = new double[number];
 
         for (int i = 0; i < array.length; i++) {
             array[i] = Math.random();

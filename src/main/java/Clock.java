@@ -4,7 +4,7 @@
 */
 
 public class Clock {
-    private static void calcDegree(int hours, int minutes) {
+    public static void calcDegree(int hours, int minutes) {
         double hoursInDegree = hours * 30 + (minutes * 30) / 60;
         double minutesInDegree = minutes * 6;
         double degree = Math.abs(hoursInDegree - minutesInDegree);
@@ -12,9 +12,4 @@ public class Clock {
 
         System.out.println("Время: " + hours + ":" + minutes + " градусы - " + result);
     }
-
-    public static void main(String[] args) {
-        calcDegree(5, 30);
-    }
-
 }

@@ -13,8 +13,7 @@ public class BaseConverter {
         return (celsius * 9 / 5) + 32;
     }
 
-    public static void main(String[] args) {
-        double celsius = 28;
+    public static void convert(double celsius) {
         System.out.println("Перевод " + celsius + " градусов по Цельсию в Кельвины - "
                 + convertKelvin(celsius));
         System.out.println("Перевод " + celsius + " градусов по Цельсию в Фаренгейты - "
